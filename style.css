@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@200;400&display=swap');
 
 * {
   box-sizing: border-box;
@@ -7,7 +7,7 @@
 body {
   background-color: #2a2a72;
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,9 +49,10 @@ body {
   max-width: 800px;
   background-color: #4c2885;
   border-radius: 20px;
-  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+  box-shadow: 
+    0 5px 10px rgba(154, 160, 185, 0.05),
     0 15px 40px rgba(0, 0, 0, 0.1);
-  display: flex;
+  display: grid;
   padding: 3rem;
   margin: 0 1.5rem;
 }
@@ -65,7 +66,6 @@ body {
 
 .user-info {
   color: #eee;
-  margin-left: 2rem;
 }
 
 .user-info h2 {
@@ -77,12 +77,13 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 0;
-  max-width: 400px;
+  
 }
 
 .user-info ul li {
   display: flex;
   align-items: center;
+  margin: 1rem;
 }
 
 .user-info ul li strong {
@@ -111,3 +112,33 @@ body {
     max-width: 400px;
   }
 }
+
+.img {
+  text-align: center;
+  align-self: center;
+
+}
+.user-info{
+  text-align: center;
+}
+.calendar {
+  color:#fff;
+  border: none;
+  
+}
+
+.calendar span {
+  color: #fff;
+}
+
+ul {
+  align-items: center;
+  justify-content: center;
+}
+
+
+.center {
+  align-items: center;
+  justify-content: center;  
+}
+
